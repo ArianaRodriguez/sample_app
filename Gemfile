@@ -5,9 +5,11 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.1'
+
+#gem 'bcrypt', platforms: :ruby #use to bundle install
+gem 'bcrypt', '~> 3.1.7'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass', '3.3.6'
 gem 'sqlite3'
